@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <style>
+        /* Desain dasar sederhana agar tampilan rapi */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f6f0;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #d4af37;
+            color: white;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .foto-section img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .info-acara {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin: 30px 0;
+        }
+        .lokasi-section iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 450px;
+            border: 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .btn-maps {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #d4af37;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bagian Pembuka / Header -->
+    <header>
+        <h1>The Wedding of</h1>
+        <h2>Shanice & Nicholas</h2>
+        <p>Kami mengundang Anda untuk merayakan kebahagiaan kami</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Bagian Foto -->
+        <section class="foto-section">
+            <h3>Galeri Foto</h3>
+            <!-- Ganti 'pria.jpg' dan 'wanita.jpg' dengan link foto Anda -->
+            <img src="https://www.google.com/imgres alt="Foto Pengantin">
+        </section>
+
+        <!-- Bagian Informasi Acara -->
+        <section class="info-acara">
+            <h3>Waktu & Tempat</h3>
+            <p><strong>Akad Nikah:</strong> 09.00 WIB - Selesai</p>
+            <p><strong>Resepsi:</strong> 12.00 WIB - Selesai</p>
+            <p><strong>Tanggal:</strong> Sabtu, 10 Oktober 2026</p>
+            <p><strong>Tempat:</strong> Gedung Serbaguna Indah, Jl. Mawar No. 123, Jakarta</p>
+        </section>
+
+        <!-- Bagian Lokasi (Google Maps) -->
+        <section class="lokasi-section">
+            <h3>Lokasi Acara</h3>
+            <p>Anda dapat mengikuti peta di bawah ini untuk menuju ke lokasi:</p>
+            
+            <!-- Link Iframe Google Maps (Bisa diganti dengan peta lokasi Anda sendiri) -->
+            <iframe src="https://google.com" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <br>
+            <!-- Tombol untuk buka langsung di aplikasi Google Maps HP -->
+            <a href="https://goo.gl" target="_blank" class="btn-maps">Buka di Google Maps</a>
+        </section>
+
+    </div>
+
+    <!-- Bagian Penutup -->
+    <footer>
+        <p>Terima kasih atas doa dan restu Anda</p>
+        <p>&copy; 2026 Romeo & Juliet. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
